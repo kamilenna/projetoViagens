@@ -1,0 +1,154 @@
+header{
+    background-color: #ffffff;
+  }
+  
+  .logo-mobile, .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-logo {
+    margin-right: 5px;
+  }
+
+  .icon-logo img{
+    width: 100%;
+  }
+
+  .logo h2 {
+    font-style: italic;
+    color: #F15152;
+  }
+  
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .nav-bar {
+    background-color: #eeecec;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    position: absolute;
+    top: -2px;
+    left: 400px;
+    display: none;
+  }
+  
+  .open {
+    display: block;
+    left: 0px;
+  }
+  
+  .nav-bar .mobile-menu-icon {
+    float: right;
+  }
+  
+  .mobile-menu-icon a{
+    color: #F15152;
+    font-size: 1.2rem;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 50px;
+  }
+  
+  .nav-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin:  2rem 0;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  .nav-link, .menu-link {
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .btn-register {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-register button {
+     padding: 5px 10px;
+     font-weight: 500;
+    border-radius: 50px;
+  }
+  
+  .btn-register button a{
+    text-decoration: none;
+  }
+  
+  .btn-login {
+    margin-right: 1rem;
+    background-color: #F15152;
+    border: none;
+    color: #fff;
+    width: 100px;
+  }
+  
+  .btn-login a {
+    color: #fff;
+  }
+  
+  .btn-sign-up {
+    border: 2px solid #F15152;
+    background-color: #fff;
+  }
+  
+  .btn-sign-up a {
+    color: #F15152;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  @media (min-width:801px) {
+    .logo-mobile {
+    display: none;
+  }
+    .main-menu {
+      padding: 1rem 2.5rem;
+      align-items: center;
+    }
+    .mobile-menu-icon {
+      display: none;
+    }
+  
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100vw;
+    }
+  
+  .menu-list ul {
+      display: flex;
+    }
+  
+    .menu-item {
+      list-style: none;
+    }
+  
+    .menu-item a{
+      display: flex;
+      margin: 0 2rem;
+    }
+  }
