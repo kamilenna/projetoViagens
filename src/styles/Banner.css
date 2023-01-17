@@ -1,0 +1,199 @@
+.banner-inicial {
+    margin-bottom: 3rem;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-inicial {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-inicial img {
+    width: 100%;
+}
+
+.mensagem {
+    padding: 0 1rem;
+    text-align: center;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.mensagem h1 {
+    font-size: 3.5rem;
+    color: #F9C22E;
+}
+
+.mensagem p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #7a7878;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+form {
+    padding: 2rem 1rem 1rem;
+    width: 90%;
+    max-width: 880px;
+    display: flex;
+    flex-direction: column;
+    color: #28AFB0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 0px 30px 30px 30px;
+}
+
+.perguntas {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perguntas label {
+    margin-bottom: 12px;
+}
+
+.perguntas input {
+    border: 3px solid #28AFB0;
+    max-width: 600px;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.pgt-local, .pgt-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.perguntas input::placeholder {
+    color: #000;
+}
+
+form button {
+    max-width: 600px;
+    height: 45px;
+    background-color: #28AFB0;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+@media (min-width:700px) {
+    .banner-inicial {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .apresentacao {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    form {
+        height: 120px;
+        width: 80vw;
+    }
+    form,  .perguntas {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .perguntas {
+        justify-content: space-between;
+    }
+
+    .pgt-local, .pgt-data {
+        width: 215px;
+        margin-right: 15px;
+    }
+
+    form button {
+        width: 150px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .img-inicial {
+        max-width: 700px;
+    }
+
+    .mensagem {
+        text-align: left;
+    }
+
+    .mensagem h1 {
+        font-size: 4.5rem;
+    }
+
+    .mensagem p {
+        font-size: 1.4rem;
+    }
+
+    .formulario {
+        float: left;
+    }
+
+    form {
+        width: 62vw;
+    }
+}
+
+@media (min-width:1280px) {
+    .mensagem h1 {
+        font-size: 6.5rem;
+    }
+
+    form {
+        width: 55vw;
+    }
+
+    form button {
+        width: 208px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (min-width:1440px) {
+    .formulario {
+        margin-top: -60px;
+    }
+    .pgt-local, .pgt-data {
+        width: 255px;
+    }
+}
+
+@media (min-width: 1586px) {
+    .apresentacao {
+        width: 55vw;
+        margin: 0 auto;
+    }
+
+    .formulario {
+        float: unset;
+    }
+
+    .pgt-local, .pgt-data {
+        width: 305px;
+    }
+}
+
