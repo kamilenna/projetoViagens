@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Banner.css"
-import { FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 import Journey from "../assets/Journey.png"
+//import Formulario from "./Formulario";
 
 export default function Banner() {
     return (
@@ -16,22 +16,8 @@ export default function Banner() {
                         <p>É hora de viajar, conhecer novos lugares, viver novas experiências.</p>
                     </div>
                 </div>
-                <section className="formulario">
-                    <form>
-                        <div className="perguntas">
-                            <div className="pgt-local">
-                                <label for="ilocal"><FaMapMarkerAlt /> Localização</label>
-                                <input type="text" id="ilocal" placeholder="Para onde deseja viajar?" />
-                            </div>
-
-                            <div className="pgt-data">
-                                <label for="idata"><FaCalendarAlt /> Data</label>
-                                <input type="date" id="idata" />
-                            </div>
-                        </div>
-                        <button>Buscar</button>
-                    </form>
-                </section>
+                <button>Planeje sua viagem</button>
+                {/*<Formulario />*/}
             </section>
         </div>
     )

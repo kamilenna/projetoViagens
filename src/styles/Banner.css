@@ -92,6 +92,20 @@ form button {
     font-weight: 700;
 }
 
+button {
+    width: 280px;
+    height: 55px;
+    background-color: #28AFB0;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin: 2rem auto;
+    display: block;
+}
+
 @media (min-width:700px) {
     .banner-inicial {
         width: 80vw;
