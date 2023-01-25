@@ -4,6 +4,7 @@
 import Banner from "./Componentes/Banner"
 import Menu from "./Componentes/Menu"
 import Servicos from "./Componentes/Servicos"
+import Populares from "./Componentes/Populares"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <main>
         <Servicos />
+        <Populares />
       </main>
     </div>
   )

@@ -1,10 +1,9 @@
 .container-servicos {
-    margin: 4rem 0;
-    padding: 1rem 1.5rem;
+    width: 80vw;
+    margin: 4rem auto;
 }
 
 .container-servicos section {
-    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,9 +25,32 @@
 }
 
 .info h6 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .info p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    color: #8E8A8A;
+}
+
+@media (min-width:700px) {
+    .container-servicos section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .servico {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width:1024px) {
+    .info h6 {
+        font-size: 1.2rem;
+    }
+    
+    .info p {
+        font-size: 1rem;
+        color: #8E8A8A;
+    }
 }

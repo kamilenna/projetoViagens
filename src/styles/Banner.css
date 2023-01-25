@@ -92,7 +92,7 @@ form button {
     font-weight: 700;
 }
 
-button {
+.btn-planner {
     width: 280px;
     height: 55px;
     background-color: #28AFB0;
@@ -102,8 +102,7 @@ button {
     font-size: 1.2rem;
     font-weight: 700;
     padding: 10px 15px;
-    margin: 2rem auto;
-    display: block;
+    margin-top: 30px;
 }
 
 @media (min-width:700px) {

@@ -14,9 +14,9 @@ export default function Banner() {
                     <div className="mensagem">
                         <h1>Explore o mundo!</h1>
                         <p>É hora de viajar, conhecer novos lugares, viver novas experiências.</p>
+                        <button className="btn-planner">Planeje sua viagem</button>
                     </div>
                 </div>
-                <button>Planeje sua viagem</button>
                 {/*<Formulario />*/}
             </section>
         </div>

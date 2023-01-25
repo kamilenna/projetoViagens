@@ -20,8 +20,8 @@ export default function Servicos() {
                         <img src={GuiaTuristico} alt="Guia turístico ícones criados por Flat Icons - Flaticon" />
                     </div>
                     <div className="info">
-                        <h6>Titulo</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h6>Guia turistico</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div className="servico">
@@ -29,8 +29,8 @@ export default function Servicos() {
                         <img src={PrecoBaixo} alt="Preco-baixo ícones criados por Andy Horvath - Flaticon" />
                     </div>
                     <div className="info">
-                        <h6>Titulo</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h6>Preços acessíveis</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div className="servico">
@@ -38,8 +38,8 @@ export default function Servicos() {
                         <img src={Suporte} alt="Apoio ícones criados por Freepik - Flaticon" />
                     </div>
                     <div className="info">
-                        <h6>Titulo</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h6>Suporte</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </section>
