@@ -2,3 +2,73 @@
     width: 80vw;
     margin: 0 auto;
 }
+
+.container-populares section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-lugar {
+    max-width: 320px;
+    height: 480px;
+    /*background-color: cornflowerblue;*/
+    border-radius: 10px;
+    margin: 0 20px 50px 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.imagem-lugar {
+    max-width: 320px;
+}
+
+.imagem-lugar img {
+    width: 100%;
+    /*position: absolute;*/
+    object-fit: cover;
+    max-width: 374px;
+    height: 326px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-lugar .descricao {
+    padding: 1rem;
+}
+
+.card-lugar .descricao h6 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-lugar .descricao > p {
+    color: #8E8A8A;
+    margin-bottom: 10px;
+}
+
+.card-lugar .descricao div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 30px;
+}
+
+.card-lugar .descricao div > .preco {
+    color: #28AFB0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+@media (min-width:900px) {
+    .container-populares section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*.card-lugar {
+        max-width: 300px;
+    
+    }*/
+}
