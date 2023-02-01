@@ -1,0 +1,62 @@
+ .container-depoimentos {
+    width: 80vw;
+    margin: 0 auto 2rem auto;
+}
+
+.slide-container {
+  max-width: 80vw;
+  max-height: 450px;
+}
+
+.splide__arrows {
+  display: none;
+}
+
+.splide__pagination {
+  bottom: none;
+  color: #000;
+}
+
+   .depoimento {
+    max-width: 1200px;
+    width: 80vw;
+    min-height: 300px;
+
+    background: rgba(249, 194, 46, 0.3);
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .infosUser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  } 
+
+   .foto img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  @media (min-width:1024px) {
+    .depoimento {
+      padding: 2rem;
+    }
+
+
+  }
+
+  @media (min-width:500px) {
+    .foto img {
+      width: 130px;
+      height: 130px;
+    }
+
+    .depoimento {
+      font-size: 1.2rem;
+    }
+
+  }

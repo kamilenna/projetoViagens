@@ -58,7 +58,7 @@ export default function Populares() {
         <div className="container-populares">
             <h2 className="subtitulo">Destinos populares</h2>
             <section>
-                {destinosPopulares.map((d) => <CardLugar img={d.img} alt={d.alt} nome={d.nome} localizacao={d.localizacao} preco={d.preco} estrelas={d.estrelas} />)}
+                {destinosPopulares.map((d) => <CardLugar key={d.nome} img={d.img} alt={d.alt} nome={d.nome} localizacao={d.localizacao} preco={d.preco} estrelas={d.estrelas} />)}
             </section>
         </div>
     )

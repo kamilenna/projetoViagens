@@ -5,6 +5,7 @@ import Banner from "./Componentes/Banner"
 import Menu from "./Componentes/Menu"
 import Servicos from "./Componentes/Servicos"
 import Populares from "./Componentes/Populares"
+import Depoimentos from "./Componentes/Depoimentos"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Servicos />
         <Populares />
+        <Depoimentos />
       </main>
     </div>
   )
