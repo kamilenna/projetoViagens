@@ -4,6 +4,13 @@
     padding: 3rem 0 1rem 0;
 }
 
+hr {
+    background: #00000017;
+    border: none;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
 .redes {
     margin: 1rem 0 2rem 0;
     font-size: 1.2rem;
@@ -31,6 +38,7 @@
     margin: 2rem 0 1rem 0;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .newsletter h3 {
@@ -55,10 +63,11 @@
     color: #fff;
     font-size: 1.1rem;
     font-weight: 700;
+    margin-bottom: 20px;
+
 }
 
 .autor {
-    margin-top: 2rem;
     text-align: center;
     font-size: 0.9rem;
 }
@@ -74,3 +83,31 @@
     text-decoration: underline;
 }
 
+@media (min-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .input-btn {
+        display: flex;
+    }
+
+    .newsletter input {
+        border-radius: 10px 0px 0px 10px;
+        width: 260px;
+    }
+    
+    .newsletter button {
+        border-radius: 0px 10px 10px 0px;
+        /*padding: 0 1rem;*/
+        width: 140px;
+    }
+}
+
+@media (min-width: 1586px) {
+    .container-footer {
+      width: 50vw;
+  }
+  }

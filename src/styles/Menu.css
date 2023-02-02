@@ -149,6 +149,11 @@ header{
     .menu-item a{
       display: flex;
       margin: 0 2rem;
+      transition: .1s;
+    }
+
+    .menu-item a:hover{
+      color: #F15152;
     }
   }
 
