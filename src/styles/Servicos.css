@@ -54,3 +54,9 @@
         color: #8E8A8A;
     }
 }
+
+@media (min-width: 1586px) {
+    .container-servicos {
+      width: 50vw;
+  }
+  }

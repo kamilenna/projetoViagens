@@ -60,6 +60,12 @@
     font-weight: 700;
 }
 
+@media (min-width: 1586px) {
+    .container-populares {
+      width: 50vw;
+  }
+  }
+
 @media (min-width:900px) {
     .container-populares section {
         display: flex;

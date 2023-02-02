@@ -151,3 +151,14 @@ header{
       margin: 0 2rem;
     }
   }
+
+  @media (min-width:1586px) {
+    .main-menu {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .menu {
+      width: 60vw;
+    }
+  }

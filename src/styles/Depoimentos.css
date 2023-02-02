@@ -18,7 +18,9 @@
 }
 
    .depoimento {
-    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    max-width: 1290px;
     width: 80vw;
     min-height: 300px;
 
@@ -39,6 +41,12 @@
     height: 60px;
     object-fit: cover;
     border-radius: 50%;
+  }
+
+  @media (min-width: 1586px) {
+    .container-depoimentos {
+      width: 50vw;
+  }
   }
 
   @media (min-width:1024px) {
