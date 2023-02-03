@@ -4,12 +4,6 @@ import GuiaTuristico from "../assets/guia-turistico.png"
 import PrecoBaixo from "../assets/preco-baixo.png"
 import Suporte from "../assets/suporte-tecnico.png"
 
-// <a href="https://www.flaticon.com/br/icones-gratis/guia-turistico" title="guia turístico ícones">Guia turístico ícones criados por Flat Icons - Flaticon</a>
-
-// <a href="https://www.flaticon.com/br/icones-gratis/preco-baixo" title="preco-baixo ícones">Preco-baixo ícones criados por Andy Horvath - Flaticon</a>
-
-// <a href="https://www.flaticon.com/br/icones-gratis/apoio" title="apoio ícones">Apoio ícones criados por Freepik - Flaticon</a>
-
 export default function Servicos() {
     return (
         <div className="container-servicos">

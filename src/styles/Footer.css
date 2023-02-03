@@ -45,7 +45,12 @@ hr {
     margin-bottom: 20px;
 }
 
-.newsletter input {
+.input-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-btn input {
     border: 1px solid #000000;
     height: 42px;
     max-width: 420px;
@@ -54,7 +59,7 @@ hr {
 
 }
 
-.newsletter button {
+.input-btn button {
     height: 42px;
     max-width: 420px;
     border-radius: 10px;
@@ -92,14 +97,15 @@ hr {
 
     .input-btn {
         display: flex;
+        flex-direction: row;
     }
 
-    .newsletter input {
+    .input-btn input {
         border-radius: 10px 0px 0px 10px;
         width: 260px;
     }
     
-    .newsletter button {
+    .input-btn button {
         border-radius: 0px 10px 10px 0px;
         /*padding: 0 1rem;*/
         width: 140px;

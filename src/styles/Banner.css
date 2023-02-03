@@ -45,13 +45,14 @@
 
 form {
     padding: 2rem 1rem 1rem;
-    width: 90%;
+    width: 90vw;
     max-width: 880px;
     display: flex;
     flex-direction: column;
     color: #28AFB0;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 0px 30px 30px 30px;
+    border-radius: 30px;
+    background-color: #fff;
 }
 
 .perguntas {
@@ -103,6 +104,46 @@ form button {
     font-weight: 700;
     padding: 10px 15px;
     margin-top: 30px;
+}
+
+/*modal*/
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #ffffff;
+    color: #f03a17;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
 }
 
 @media (min-width:700px) {

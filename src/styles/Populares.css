@@ -26,7 +26,6 @@
 
 .imagem-lugar img {
     width: 100%;
-    /*position: absolute;*/
     object-fit: cover;
     max-width: 374px;
     height: 326px;
@@ -72,9 +71,4 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-    /*.card-lugar {
-        max-width: 300px;
-    
-    }*/
 }
