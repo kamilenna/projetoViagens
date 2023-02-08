@@ -12,7 +12,7 @@
 <h2>👩‍🎓 O que aprendi</h2>
 Com esse projeto pude praticar criação de projetos ReactJs + ViteJs mais complexos, criação de componentes, criação de um modal e a criação de um carrossel utilizando bibliotecas JavaScript.
 
-<h3><strong><a href="#">Link do projeto</a></strong></h3>
+<h3><strong><a href="#https://tour-viagens.netlify.app/">Link do projeto</a></strong></h3>
 
 <br>
 
